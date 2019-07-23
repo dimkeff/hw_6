@@ -7,7 +7,6 @@ function printTimeout(str, n) {
     setTimeout(() => {
 
  
-
       console.log(str);
 
     }, numberTimer);
@@ -15,12 +14,6 @@ function printTimeout(str, n) {
     }
 
 printTimeout('HELOO', 2);
-
- 
-
- 
-
- 
 
 ****//// TASK_2 ////****
 
@@ -39,10 +32,6 @@ function sumAll(n) {
   console.log(sumAll(2));
 
   console.log(sumAll(4));
-
- 
-
- 
 
 ****//// TASK_3 ////****
 
@@ -73,17 +62,9 @@ else
                                }, 3000);
 
                                setTimeout(start, time * 3000);
-
                 }
 
- 
-
                                console.log('Timer for Bomb');
-
- 
-
- 
-
 ****//// TASK_4 ////****
 
   function fact(n) {
@@ -95,10 +76,6 @@ else
       console.log(fact(3));
 
       console.log(fact(5));
-
-                 
-
-                  
 
 ****//// TASK_6 ////****
 

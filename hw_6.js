@@ -1,4 +1,3 @@
-Dima, [23.07.19 15:00]
 **//// TASK_1 ////**
 function printTimeout(str, n) {
   let numberTimer = n * 1000;
@@ -22,19 +21,18 @@ function sumAll(n) {
 function bombTime(str, time) {
   let score = time;
   let start = setInterval(() => {
-      
     if (score > 0) {
- console.log(score);
- score--;
-      
-} else {
-
-    console.log(str)
-    clearInterval(start);
+      console.log(score);
+      score--;
+    } else {
+      console.log(str);
+      clearInterval(start);
+    }
+  }, 3000);
+  setTimeout(start, time * 3000);
 }
-}, 3000);
-    setTimeout(start, time * 3000);        }
-    console.log('Timer for Bomb');
+
+console.log('Timer for Bomb');
 **//// TASK_4 ////**
 function fact(n) {
   return n ? n * fact( n - 1 ) : 1; }

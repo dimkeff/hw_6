@@ -49,3 +49,20 @@ function numberFilt(arr, maxNumber) {
     return newArr;
     }
 console.log(numberFilt([1, 4, 8, 1, 20], 5));
+
+**//// TASK_7 ////**
+  function MinMax(arr) {
+  if (arr.length > 0) {
+        var max = arr[0];
+        var min = arr[0];
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        console.log('max:', max, 'min:', min);
+    }
+}
